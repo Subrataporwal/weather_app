@@ -12,7 +12,7 @@ class WeatherBlocBloc extends Bloc<WeatherBlocEvent, WeatherBlocState> {
       emit(WeatherBlocLoading());
       try {
         WeatherFactory wf = WeatherFactory(
-          "d506b4e0c2905166f9c75bde8803f0da",
+          "",
           language: Language.ENGLISH,
         );
 
